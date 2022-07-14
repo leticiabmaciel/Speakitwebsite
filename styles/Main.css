@@ -4,19 +4,23 @@ header {
 
 img {
   width: 400px;
-  margin-left: 100px;
+  margin-left: 150px;
   border-radius: 2px;
 }
 
-h1,
-p {
-  margin: 70px 200px auto 80px;
+h1 {
+  margin-left: 150px;
+}
+
+#sobrenos {
+  margin-left: 150px;
 }
 
 h1 {
   font-family: Ubuntu;
   color: #ff1616;
   font-size: 25px;
+  margin-top:50px;
 }
 
 p {
@@ -37,9 +41,11 @@ li {
   list-style: none;
   font-family: Hammersmith One;
   padding: 16px;
+  margin: 25px 110px;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
-  margin: 25px 200px;
   background-color: #ff1616;
   border-radius: 6px;
   color:white;
+  text-align: center;
 }
+
