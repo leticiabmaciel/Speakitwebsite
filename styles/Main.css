@@ -12,6 +12,10 @@ h1 {
   margin-left: 150px;
 }
 
+.intro {
+  margin-left: 3px;
+}
+
 #sobrenos {
   margin-left: 150px;
 }
@@ -27,25 +31,33 @@ p {
   font-family: Hammersmith One;
   text-align: justify;
   margin-top: 30px;
+  margin-right: 200px;
+  text-align:justify
 }
 
-section {
+div {
   background-color: #1d256f;
 }
 
 ul {
     margin-top: 70px;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    gap: 0px;
+    justify-content: center;
+    
 }
 
 li {
   list-style: none;
   font-family: Hammersmith One;
-  padding: 16px;
-  margin: 25px 110px;
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  padding: 30px 8px;
+  margin: 25px 110px 25px 50px;
+  box-shadow: 1px 1px 4px rgba(220, 34, 34, 0.6);
   background-color: #ff1616;
   border-radius: 6px;
   color:white;
-  text-align: center;
-}
+  text-align:center;
 
+}
