@@ -1,5 +1,5 @@
 header {
-  background-color: #1d256f;
+  background:linear-gradient(45deg, #1d256f, #3e4095);
 }
 
 img {
@@ -8,23 +8,18 @@ img {
   border-radius: 2px;
 }
 
-h1 {
-  margin-left: 150px;
-}
-
 .intro {
-  margin-left: 3px;
-}
-
-#sobrenos {
-  margin-left: 150px;
+  padding: 50px 50px 50px 150px;
+  background-image: url("https://a-static.mlcdn.com.br/1500x1500/papel-de-parede-tijolos-brancos-qcola/qcola/14035/d14ed9b82543a1fe92e394fe31165f6a.jpg");
+  /* background-position: center; */
+  background-size: cover;
 }
 
 h1 {
   font-family: Ubuntu;
   color: #ff1616;
   font-size: 25px;
-  margin-top:50px;
+  margin-top: 50px;
 }
 
 p {
@@ -32,23 +27,24 @@ p {
   text-align: justify;
   margin-top: 30px;
   margin-right: 200px;
-  text-align:justify
+  text-align: justify;
 }
 
 div {
-  background-color: #1d256f;
+  background:linear-gradient(45deg, #1d256f, #3e4095);
 }
 
 ul {
-    margin-top: 70px;
-    display: grid;
-    grid-template-columns: 400px 400px;
-    gap: 0px;
-    justify-content: center;
-    
+  margin-top: 0px;
+  padding-top:50px;
+  padding-bottom:50px;
+  display: grid;
+  grid-template-columns: 400px 400px;
+  gap: 0px;
+  justify-content: center;
 }
 
-li {
+div li {
   list-style: none;
   font-family: Hammersmith One;
   font-weight: bold;
@@ -57,7 +53,29 @@ li {
   box-shadow: 1px 1px 4px rgba(220, 34, 34, 0.6);
   background-color: #ff1616;
   border-radius: 6px;
-  color:white;
-  text-align:center;
+  color: white;
+  text-align: center;
+}
 
+footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: url("https://a-static.mlcdn.com.br/1500x1500/papel-de-parede-tijolos-brancos-qcola/qcola/14035/d14ed9b82543a1fe92e394fe31165f6a.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+footer h2 {
+  font-family: Ubuntu;
+  text-align: center;
+}
+
+footer img {
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+footer li {
+  list-style: none;
 }
